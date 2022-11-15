@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #3C455C;
+}
+.header{
+    justify-content: first baseline;
+    flex-direction: column;
+}
+nav ul{
+flex: 1;
+text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #eeeee4;
+}
+.first{
+    color: #eeeee4;
+}
+nav ul li a:hover{
+ color: #2596be;
+}
+img{
+    width: 20px;
+    border-radius: 5px;
+    border: 1px solid #3C455C;
+}
+.mainbody{
+    justify-content: inherit;
+}
+.searchbar{
+    width: 500px;
+    height: 40px;
+    border-radius: 80px;
+background-color: #3C455C;
+border: 1px solid #eeeee4;
+   margin-left: 400px;
+   margin-top: 250px;
+}
+#search-logo{
+    color: #eeeee4;
+    margin-left: -480px;
+}
+#search-logo:hover{
+    color: #2596be;
+}
+#microphone-logo{
+color: #eeeee4;
+    margin-left: -30px;
+}
+#microphone-logo:hover{
+    color: #2596be;
+}
+h1{
+    text-align: center;
+    color: #eeeee4;
+    font-weight: 100;
+    font-size: 80px;
+    margin-top: -160px;
+}
+.button1{
+    width: 150px;
+    height: 25px;
+    background-color: #808B96;
+    border: 1px solid #3C455C;
+    color: #eeeee4;
+    margin-left: 480px;
+    margin-top: 30px;
+}
+.button2{
+    width: 150px;
+    height: 25px;
+    color: #eeeee4;
+    background-color: #808B96;
+    border: 1px solid #3C455C;
+    margin-left: 5px;
+}
+h2{
+    font-size: 15px;
+    color: #eeeee4;
+    margin-left: 530px;
+    font-weight: 100;
+}
+a{
+    text-decoration: none;
+    color: rgb(203, 203, 227);
+    margin-left: 10px;
+}
+.container{
+    width: 1200px;
+    height: 30px;
+    background-color: #585b5f;
+    margin-left: 40px;
+    border-radius: 5px;
+border-bottom: 1px solid #eeeee4;
+}
+h3 a{
+    font-size: 12px;
+}
+.container2{
+    width: 1200px;
+    height: 30px;
+    background-color: #585b5f;
+    margin-left: 40px;
+    margin-top: 5px;
+    border-radius: 5px;
+border-top: 1px solid #eeeee4;
+}
+.footer-links{
+    font-size: 12px;
+}
+.container3{
+    margin-top: -20px;
+margin-left: 1000px;
+}
+.end{
+    display: inline-block;
+    font-size: 12px;
+}
